@@ -7,7 +7,7 @@
   <license>BSD</license>
 
   <url type="website">http://ros.org/wiki/dynamixel_msgs</url>
-  <!-- <url type="bugtracker"></url> -->
+  <url type="bugtracker">https://github.com/OTL/dynamixel_motor</url>
 
   <author>Antons Rebguns</author>
 

@@ -13,15 +13,12 @@
   <license>BSD</license>
 
   <url type="website">http://ros.org/wiki/dynamixel_driver</url>
-  <!-- <url type="bugtracker"></url> -->
+  <url type="bugtracker">https://github.com/OTL/dynamixel_motor</url>
 
   <author>Antons Rebguns</author>
   <author>Cody Jorgensen</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-
-  <build_depend>rospy</build_depend>
-  <build_depend>diagnostic_msgs</build_depend>
 
   <run_depend>rospy</run_depend>
   <run_depend>diagnostic_msgs</run_depend>

@@ -1,10 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(dynamixel_controllers)
 
-find_package(catkin REQUIRED COMPONENTS
-  message_generation
-  rospy actionlib dynamixel_driver
-  std_msgs trajectory_msgs diagnostic_msgs dynamixel_msgs control_msgs)
+find_package(catkin REQUIRED COMPONENTS message_generation)
 
 add_service_files(
   FILES
@@ -21,7 +18,6 @@ add_service_files(
 
 catkin_python_setup()
 
-#generate_messages(DEPENDENCIES std_msgs)
 generate_messages()
 
 catkin_package(
