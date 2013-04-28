@@ -47,9 +47,6 @@ from threading import Thread
 
 import sys
 
-import roslib
-roslib.load_manifest('dynamixel_controllers')
-
 import rospy
 
 from dynamixel_driver.dynamixel_serial_proxy import SerialProxy

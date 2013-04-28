@@ -46,9 +46,6 @@ import sys
 import os
 from optparse import OptionParser
 
-import roslib
-roslib.load_manifest('dynamixel_controllers')
-
 from roslib.packages import InvalidROSPkgException
 
 import rospy
